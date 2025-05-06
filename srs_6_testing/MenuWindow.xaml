@@ -1,0 +1,26 @@
+﻿<Window x:Class="srs_6_testing.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:srs_6_testing"
+        mc:Ignorable="d"
+        Title="Главный экран" Height="450" Width="820"
+        WindowStartupLocation="CenterScreen"
+        Background="White">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="UsersDataGrid" AutoGenerateColumns="False" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding UsersID}" Width="Auto"/>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding Surname}" Width="*"/>
+                <DataGridTextColumn Header="Имя" Binding="{Binding Name}" Width="*"/>
+                <DataGridTextColumn Header="Отчество" Binding="{Binding Patronymic}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        
+    </Grid>
+</Window>

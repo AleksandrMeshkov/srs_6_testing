@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "srs_6_testing", "srs_6_testing\srs_6_testing.csproj", "{64C9E973-C42D-4375-B949-A79A80AA7D59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAuthoriz", "TestAuthoriz\TestAuthoriz.csproj", "{4C9D5E28-8654-4495-BB98-ED7010DCEDFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64C9E973-C42D-4375-B949-A79A80AA7D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C9E973-C42D-4375-B949-A79A80AA7D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C9E973-C42D-4375-B949-A79A80AA7D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C9E973-C42D-4375-B949-A79A80AA7D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9D5E28-8654-4495-BB98-ED7010DCEDFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9D5E28-8654-4495-BB98-ED7010DCEDFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9D5E28-8654-4495-BB98-ED7010DCEDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9D5E28-8654-4495-BB98-ED7010DCEDFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C33F9E3-8D17-46D2-ADF7-4DA1C7C9BF6A}
+	EndGlobalSection
+EndGlobal
